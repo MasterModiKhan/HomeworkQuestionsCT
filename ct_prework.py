@@ -29,7 +29,7 @@
 # question 4 
 #def is_leap_year(year):
 #    year = int(input("Enter a year: "))
-#    if((year % 400) or
+#    if((year % 400 == 0) or
 #        (year % 100 != 0) and
 #        (year % 4 == 0)):
 #        return True
